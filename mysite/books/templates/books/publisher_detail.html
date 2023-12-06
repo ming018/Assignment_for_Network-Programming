@@ -1,0 +1,12 @@
+{% extends "base_books.html" %}
+
+{% block content %}
+<h1>{{ object.name }}</h1>
+
+<ul>
+    <ul>
+        <li>{{ object.website }}</li>
+        <li>Address : {{ object.address }}</li>
+    </ul>
+</ul>
+    {% endblock content %}
